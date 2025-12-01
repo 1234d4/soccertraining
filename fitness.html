@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soccer Training Guide - Fitness</title>
+  <link rel="stylesheet" href="soccer.css">
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Beginner Soccer Training Guide</h1>
+  </div>
+
+  <div class="layout">
+    <nav class="sidebar">
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills & Drills</a>
+      <a href="fitness.html">Fitness & Conditioning</a>
+      <a href="equipment.html">Equipment & Tips</a>
+    </nav>
+
+    <main class="content">
+      <h2>Fitness & Conditioning</h2>
+      <p>Use this simple tool to plan a weekly workout.</p>
+
+      <p>How many days per week can you train?</p>
+      <input type="text" id="days-per-week">
+      <button type="button" onclick="planWorkout()">Get workout plan</button>
+
+      <div id="workout-output">
+        <!-- JavaScript will place workout text here -->
+      </div>
+    </main>
+  </div>
+
+  <script src="soccer.js"></script>
+</body>
+</html>
