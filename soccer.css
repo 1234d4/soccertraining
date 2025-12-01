@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f8fb;
+}
+
+.banner {
+  background-color: #1b5e20;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 180px;
+  background-color: #eeeeee;
+  padding: 15px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+button {
+  margin-top: 5px;
+}
