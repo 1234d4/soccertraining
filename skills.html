@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soccer Training Guide - Skills & Drills</title>
+  <link rel="stylesheet" href="soccer.css">
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Beginner Soccer Training Guide</h1>
+  </div>
+
+  <div class="layout">
+    <nav class="sidebar">
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills & Drills</a>
+      <a href="fitness.html">Fitness & Conditioning</a>
+      <a href="equipment.html">Equipment & Tips</a>
+    </nav>
+
+    <main class="content">
+      <h2>Skills & Drills</h2>
+      <p>Below are basic skills and drills for beginners.</p>
+
+      <h3>Show top drills</h3>
+      <p>Enter how many drills you want to see (1–5):</p>
+      <input type="text" id="drill-count">
+      <button type="button" onclick="showDrills()">Show drills</button>
+
+      <div id="drill-output">
+        <!-- JavaScript will list drills here -->
+      </div>
+    </main>
+  </div>
+
+  <script src="soccer.js"></script>
+</body>
+</html>
